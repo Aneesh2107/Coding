@@ -1,0 +1,6 @@
+list=[]
+def convert(num):
+	for i in str(num):
+		list.append(int(i))
+convert(2345)
+print(list)

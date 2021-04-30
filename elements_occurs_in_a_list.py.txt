@@ -1,0 +1,16 @@
+def search(list,n):
+  
+    for i in range(len(list)):
+        if list[i] == n:
+            return True
+    return False
+  
+list = [1, 2, 'rahul', 5,'hello', 6,7]
+  
+# Driver Code
+n = input("enter a list:")
+  
+if search(list, n):
+    print("Found")
+else:
+    print("Not Found")

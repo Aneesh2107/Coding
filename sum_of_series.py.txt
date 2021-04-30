@@ -1,0 +1,6 @@
+n=int(input("Enter the number"))
+x=int(input("Enter the value"))
+sum=1
+	for i in range(3,n+1):
+sum=sum+((x**i)/i)
+print("The sum of series is",round(sum,3))
